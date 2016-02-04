@@ -3,8 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>TheGoFind</title>
-	<link rel="shortcut icon" href="http://localhost/yii/frontend/views/layouts/pic/title.ico">
-	<link rel="stylesheet" type="text/css" href="http://localhost/yii/frontend/views/layouts/css/site.css">	
+	<link rel="shortcut icon" href="../views/layouts/pic/title.ico">
+	<link rel="stylesheet" type="text/css" href="../views/layouts/css/site.css">	
 	<style type="text/css">
 	*{
 		margin: 0;
@@ -50,7 +50,7 @@
 		width:expression(this.width>175?"175px":this.width)!important;
 	}
 	.logo_pic{
-		background-image: url('http://localhost/yii/frontend/views/layouts/pic/logo.png');
+		background-image: url('../views/layouts/pic/logo.png');
 		background-repeat:no-repeat;
     	height: 33px;
     	width: 175px;
@@ -116,7 +116,7 @@
     	margin-top: 4px;
 	}
 	.docs_logo{
-		background-image: url('http://localhost/yii/frontend/views/layouts/pic/docs_logo.png');
+		background-image: url('../views/layouts/pic/docs_logo.png');
 		background-repeat:no-repeat;
     	height: 48px;
     	width: 48px;
@@ -181,7 +181,7 @@
 	<div class='logo' >
 		<!-- <div class="logo_pic"></div> -->
 		<div class="suofang">
-			<img src="http://localhost/yii/frontend/views/layouts/pic/logo.png"/>
+			<img src="../views/layouts/pic/logo.png"/>
 		</div>
 		
 	</div>
@@ -208,7 +208,7 @@
 			</table>
 		</div>
 		<div class='avatar'>
-			<img src="http://localhost/yii/frontend/views/layouts/pic/chen.jpg"/>
+			<img src="../views/layouts/pic/chen.jpg"/>
 		</div>
 	</div>
 </div>
