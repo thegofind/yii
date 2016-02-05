@@ -166,7 +166,89 @@
 		margin: 0 auto;
 		width: 900px;
 		height: 100%;
-		background-color: #eef;
+		color: #555555;
+/*		background-color: #eef;*/
+	}
+	.container_content p{
+		color: #555555;
+		font-size: 14px;
+		font-weight: 500;
+		font-family: Roboto,Arial,sans-serif;
+	}
+	.content_top{
+		width: 900px;
+		height: 56px;
+		float: left;
+	}
+	.content_top_left{
+		width: 500px;
+		height: 56px;
+		float: left;
+	}
+	.content_top_right{
+		width: 400px;
+		height: 56px;
+		float: left;
+	}
+	/*.content_top_left p{
+		color: #555555;	
+		font-size: 14px;
+	}*/
+	.content_center{
+		width: 900px;
+		height: 800px;
+		float: left;
+	}
+	.content_center .content_top_right p{
+		text-align:left;
+		color: #555555;
+		font-size: 14px;
+	}
+	.post{
+		width: 900px;
+		height: 48px;
+		float: left;
+		background-color: #fff;
+		border-bottom: 1px solid #c4c4c4;
+	    border-left: 1px solid #d3d3d3;
+	    border-right: 1px solid #d3d3d3;
+	    border-top: 1px solid #d3d3d3;
+	    box-shadow: 0 1px 0 rgba(0,0,0,0.07);
+	}
+	.post_logo{
+		width: 50px;
+		height: 47px;
+		float: left;
+		color: #555555;
+		font-size: 14px;
+		
+	}
+	.post_logo_div{
+		width: 21px;
+		height: 21px;
+		float: left;
+		margin: 13px 14px;
+		/*background-image: url('../views/layouts/pic/post_title.jpg');*/
+	}
+	.post_title{
+		width: 450px;
+		height: 48px;
+		float: left;
+		text-align:left;
+		color: #555555;
+		font-size: 14px;
+	}
+/*	.post_title p{
+		text-align:left;
+		color: #555555;
+		font-size: 14px;
+	}*/
+	.post_edit{
+		width: 400px;
+		height: 48px;
+		float: left;
+		color: #555555;
+		font-size: 14px;
 	}
 	</style>
 </head>
@@ -262,7 +344,53 @@
 
 	<!-- 正文文本 -->
 	<div class='container_content'>
-
+		<div class='content_top'>
+			<div class="content_top_left">
+				<table height='56px' topmargin="0" leftmargin="0">
+					<tr>
+						<td align="absmiddle">
+							<p height=100 align=center>Today</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="content_top_right">
+				<table height='56px' topmargin="0" leftmargin="0">
+					<tr>
+						<td align="absmiddle">
+							<p height=100 align=center>Owned by anyone</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class='content_center'>
+			<div class='post'>
+				<div class='post_logo'>
+					<div class='post_logo_div'>
+						<img src="../views/layouts/pic/post_logo.jpg">
+					</div>
+				</div>
+				<div class='post_title'>
+					<table height='47px' topmargin="0" leftmargin="0">
+						<tr>
+							<td align="absmiddle">
+								<p height=100 align=center>如何翻墙by【编程随想】{2012-07-17}</p>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class='post_edit'>
+					<table height='47px' topmargin="0" leftmargin="0">
+						<tr>
+							<td align="absmiddle">
+								<p height=100 align=center>编程随想</p>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
 	</div>
 
 </div>
